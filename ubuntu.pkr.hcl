@@ -46,7 +46,7 @@ source "vsphere-iso" "ubuntu" {
 
     # ISO Configuration
     iso_checksum          = "file:https://releases.ubuntu.com/jammy/SHA256SUMS"
-    iso_url               = "https://releases.ubuntu.com/jammy/ubuntu-22.04-live-server-amd64.iso"
+    iso_url               = "https://releases.ubuntu.com/jammy/ubuntu-22.04.1-live-server-amd64.iso"
 
     # VM Configuration
     guest_os_type         = "ubuntu64Guest"
